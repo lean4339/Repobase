@@ -10,7 +10,6 @@ export const HomeContainer = () => {
         <>
         <Main id='/main'/>
         <About id='/about'/>
-        <Parallax clase='parallax1' id='paralax'/>
         <Services id='/services'/>
         <Recruitment id='/recruitment'/>
         {/* <Vacancies id='/vacancies'/> */}

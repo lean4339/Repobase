@@ -6,7 +6,7 @@ export const About = () => {
         <Element name='/about'/>
         <main className='about-main-container' id="/about">
             <div className='about-content-container'>
-                <h1 className="titulo-main-about">Sobre nosotras</h1>
+            <button className='button-principal hover pointer'>Conocenos</button>
                 <div className="about-text-container">
 
                 <p>

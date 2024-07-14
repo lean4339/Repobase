@@ -8,7 +8,6 @@ export const Main = () => {
             <div className='content-container'>
                 <h3 className="subtitulo-main">Estás a un paso</h3>
                 <h1 className="titulo-main">De tu próximo trabajo</h1>
-                <button className='button-principal hover pointer'>Conocenos!</button>
             </div>
         </main>
         </>
