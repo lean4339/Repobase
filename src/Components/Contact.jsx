@@ -78,7 +78,7 @@ export const Contact = () => {
         {error && error.message &&
           <p className='error'>{error.message}</p>
         }
-        <button onClick={onSubmit} className='button-principal  pointer'>Enviar</button>
+        <button onClick={onSubmit} className='button-principal hover pointer'>Enviar</button>
       </div>
     </>
   )

@@ -10,7 +10,7 @@ export const Conexion = () => {
     return (
         <>
         <div className="conexionContainer">
-            <button onClick={openWhatsAppChat} className="guasa  pointer"><WhatsAppIcon sx={{ fontSize: 30 }}/></button>
+            <button onClick={openWhatsAppChat} className="guasa hover pointer"><WhatsAppIcon sx={{ fontSize: 30 }}/></button>
         </div>
         </>
     )

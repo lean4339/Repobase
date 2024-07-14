@@ -6,13 +6,11 @@ export const Header = () => {
     const [animatedLinks, setAnimatedLinks] = useState('')
     const [animatedMenu, setAnimatedMenu] = useState(false)
     const links = [
+        {id: 6, title: 'About'},
         {id: 1, title: 'Services'},
-        {id: 2, title: 'Companys'},
-        {id: 3, title: 'Clients'},
+        {id: 5, title: 'Recruitment'},
+        // {id: 3, title: 'Vacancies'},
         {id: 4, title: 'Contact'},
-        {id: 5, title: 'Portfolio'},
-        {id: 6, title: 'Courses'},
-        {id: 7, title: 'Im looking for a job'},
     ]
     const handleShowMenu = () => {
         setShowMenu(!showMenu)
@@ -25,10 +23,10 @@ export const Header = () => {
 
         <header className={`headerContainer ${animatedMenu? 'animated-menu': 'go-back-menu'}`}>
         <nav className="desktop">
-            <LinkRouter smooth={true} duration={500} to={'/main'} className="logo pointer">Rockstar</LinkRouter>
+            <LinkRouter smooth={true} duration={500} to={'/main'} className="logo hover pointer">Rockstar</LinkRouter>
             <ul className="links">
                 {links && links.map(link =>(
-                    <LinkRouter smooth={true} duration={500} to={`/${link.title.toLowerCase()}`} className="link pointer" key={link.id}>{link.title}</LinkRouter>
+                    <LinkRouter smooth={true} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>
         </nav>
@@ -36,12 +34,12 @@ export const Header = () => {
         <nav className='mobile'>
             <div className="header-mobile">
 
-            <LinkRouter smooth={true} duration={500} to={'/main'} className="  pointer logo">Rockstar</LinkRouter>
-            <div onClick={handleShowMenu} className="menuIcon  pointer"><MenuIcon/></div>
+            <LinkRouter smooth={true} duration={500} to={'/main'} className="  pointer hover logo">Rockstar</LinkRouter>
+            <div onClick={handleShowMenu} className="menuIcon  pointer hover"><MenuIcon/></div>
             </div>
             {showMenu && <ul className={`links ${animatedLinks}`} >
                 {links && links.map(link =>(
-                     <LinkRouter to={`/${link.title.toLowerCase()}`} className="link  pointer" key={link.id}>{link.title}</LinkRouter>
+                     <LinkRouter smooth={true} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>}
         </nav>
