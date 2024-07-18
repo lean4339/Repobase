@@ -68,6 +68,13 @@ p{
     font-size: 1rem;
     background-color: #F6F6F6;
 }
+.about-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+}
 
 .inputs {
     border: none;
@@ -94,9 +101,34 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px 10px;
 }
-.about-text-container p{
+.about-text-container {
+    width: 100%;
+    height: fit-content;
+}
+.about-main-container p {
     width: 80%;
+}
+.perfilContinaerj{
+    background-image: url('./assets/jota.jpg');
+    width: 200px;
+    height: 200px;
+    border: 3px solid #F1DAE7;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perfilContinaerd{
+    background-image: url('./assets/danu.jpeg');
+    width: 200px;
+    height: 200px;
+    border: 3px solid #F1DAE7;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallax1 {
 
@@ -536,12 +568,21 @@ p{
     }
     .about-text-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 35%;
+        text-align: center;
+    } .about-text-container p{
+        text-align: center;
+    }
+    .contenedor-flex-about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
     .about-text-container p{
-        width: 30%;
         padding: 20px 20px;
     }
 
