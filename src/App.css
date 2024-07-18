@@ -12,6 +12,10 @@ body {
     text-transform: uppercase;
     background-color: #F6F6F6;
 }
+p{
+    font-weight: 100;
+    font-size: 16px;
+}
 .service-container{
     display: flex;
     align-items: center;
@@ -44,7 +48,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 5%;
-    background-color: pink;
+    background-color: #F1DAE7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,6 +169,7 @@ body {
     padding: 30px 20px;
     background-color: #F6F6F6;
     height: 100vh;
+    text-transform: none;
 }
 
 .title-form-container {

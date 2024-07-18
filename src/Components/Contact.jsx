@@ -62,7 +62,7 @@ export const Contact = () => {
       <div className='form-container' id='/contact'>
         <div className='title-form-container'>
           <h1 className='title-form'>Contacto</h1>
-          <p className='text-form'>Puedes dejarnos un mensaje, o bien, seguirnos en redes sociales</p>
+          <p >Puedes dejarnos un mensaje</p>
         </div>
         <input value={formData.name} placeholder='Name' autoComplete="off" name='name' id='name' onChange={handleChange} type='text' label='Nombre' className='inputs'  />
         {error && error.name &&

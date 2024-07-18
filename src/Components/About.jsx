@@ -10,19 +10,10 @@ export const About = () => {
                 <div className="about-text-container">
 
                 <p>
-                Somos Laura y Ana, dos reclutadoras apasionadas dedicadas a ayudarte a encontrar tu trabajo ideal y a asistir a las empresas en la búsqueda del talento perfecto.
-
-Laura tiene un don para identificar a los candidatos excepcionales, gracias a su formación en psicología. Le encanta conectar con las personas y emparejarlas con oportunidades donde puedan brillar.
-
-Ana aporta una vasta experiencia en recursos humanos y reclutamiento corporativo. Con su enfoque estratégico y atención a los detalles, asegura que tanto candidatos como empresas vivan una experiencia de reclutamiento fluida y gratificante.
-
-    </p>
-<p>
-    Nuestra misión es simple: hacer del reclutamiento un proceso agradable y efectivo. Ya seas un candidato buscando tu próxima gran oportunidad o una empresa en busca de talento excepcional, estamos aquí para ayudarte a lograrlo.
-
-Ofrecemos servicios personalizados de revisión de currículums, coaching para entrevistas, búsqueda de talento y selección de candidatos. Nos enorgullecemos de nuestro profesionalismo y dedicación a la excelencia, asegurando que cada colocación sea el ajuste perfecto.
-
-Conéctate con nosotras hoy y descubre cómo podemos ayudarte en tu carrera o en la búsqueda del talento ideal para tu empresa.
+                Después de trabajar en diversas agencias de reclutamiento, tanto en el mercado argentino como en otros países de LATAM, así como en USA y España, adquirimos un profundo conocimiento y entendimiento de las necesidades y dinámicas del mercado laboral internacional.
+Durante este tiempo, descubrimos que lo que más nos apasionaba era la posibilidad de crear nuestra propia fuente de trabajo. Queríamos aportar nuestra visión y compromiso personal a cada proyecto, ofreciendo un servicio más cercano y personalizado. Así nació HR Innovate.
+En HR Innovate, combinamos nuestra experiencia en búsquedas generalistas y especializadas en el área tecnológica para brindar asesoramiento laboral integral, servicios de empleabilidad y reclutamiento de alta calidad. 
+¡Estamos felices de que nos elijas y confíes en nosotros para tu desarrollo profesional!
                 </p>
                 </div>
             </div>

@@ -12,7 +12,8 @@ export const Recruitment = () => {
                         <GroupAddIcon sx={{ fontSize: 50 }} className="iconoService"/>
                     </div>
                     <h2 className="service-title">Buscamos los mejores candidatos</h2>
-                    <p className="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in risus nec nunc pulvinar aliquam. Integer nec purus vel purus hendrerit cursus. Donec nec magna nec nunc ultricies lacinia. Sed nec dolor in nisi ultricies tincidunt. Nullam at eros nec nunc tincidunt feugiat. Nullam nec dolor et nunc cursus pharetra. Sed
+                    <p className="service-description">
+                    Nos especializamos en conectar a las mejores empresas con los talentos más adecuados, abarcando una amplia gama de sectores y especialidades. Asegurando que cada candidato no solo cumpla con los requisitos técnicos, sino que también se alinee con la cultura y los valores de tu organización. Con nuestro enfoque personalizado y experiencia en el sector, garantizamos un proceso de reclutamiento eficiente y exitoso.
             </p>
             </div>
             </div>
