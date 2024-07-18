@@ -44,7 +44,7 @@ export const Contact = () => {
     if (isError) {
       setError(newError)
       return;}
-    const mailtoLink = `mailto:lean4339@gmail.com?subject=${encodeURIComponent('Nuevo mensaje de ' + formData.name)}&body=${encodeURIComponent('Nombre: ' + formData.name + '\nEmail: ' + formData.email + '\nTelefono: ' + formData.telephone + '\nCompany: ' + formData.company + '\nMensaje: ' + formData.message)}`;
+    const mailtoLink = `mailto:consultas@hrinnovate.site?subject=${encodeURIComponent('Nuevo mensaje de ' + formData.name)}&body=${encodeURIComponent('Nombre: ' + formData.name + '\nEmail: ' + formData.email + '\nTelefono: ' + formData.telephone + '\nCompany: ' + formData.company + '\nMensaje: ' + formData.message)}`;
 
     window.open(mailtoLink, '_blank');
 
