@@ -23,7 +23,7 @@ export const Services = () => {
                         <FileCopyOutlinedIcon sx={{ fontSize: 50 }} className="iconoService"/>
                     </div>
                     <h2 className="service-title">Revision de CV :</h2>
-                    <p className="service-description"> Evaluación de CV junto con la elaboración de un informe donde se establecen las mejoras
+                    <p className="service-description"> Evaluación de CV junto con la elaboración de un informe donde se establecen las mejoras <br />
 
             </p>
             </div>
