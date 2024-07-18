@@ -42,7 +42,6 @@ p{
     justify-content: center;
     flex-direction: column;
     text-transform: none;
-    border-bottom: 1px solid gray;
 }
 .cabeceraService{
     width: 150px;
