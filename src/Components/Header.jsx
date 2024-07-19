@@ -23,10 +23,10 @@ export const Header = () => {
 
         <header className={`headerContainer ${animatedMenu? 'animated-menu': 'go-back-menu'}`}>
         <nav className="desktop">
-            <LinkRouter smooth={true} duration={500} to={'/main'} className="logo hover pointer">Rockstar</LinkRouter>
+            <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={'/main'} className="logo hover pointer">Rockstar</LinkRouter>
             <ul className="links">
                 {links && links.map(link =>(
-                    <LinkRouter smooth={true} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
+                    <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>
         </nav>
@@ -34,12 +34,12 @@ export const Header = () => {
         <nav className='mobile'>
             <div className="header-mobile">
 
-            <LinkRouter smooth={true} duration={500} to={'/main'} className="  pointer hover logo">Rockstar</LinkRouter>
+            <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={'/main'} className="  pointer hover logo">Rockstar</LinkRouter>
             <div onClick={handleShowMenu} className="menuIcon  pointer hover"><MenuIcon/></div>
             </div>
             {showMenu && <ul className={`links ${animatedLinks}`} >
                 {links && links.map(link =>(
-                     <LinkRouter smooth={true} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
+                     <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={`/${link.title.toLowerCase()}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>}
         </nav>
