@@ -13,7 +13,7 @@ export const Services = () => {
                     <div className="cabeceraService">
                         <FileCopyOutlinedIcon sx={{ fontSize: 50 }} className="iconoService"/>
                     </div>
-                    <h2 className="service-title">Armado de CV :</h2>
+                    <h2 className="service-title">Armado de CV </h2>
                     <p className="service-description"> Luego de recolectar la información necesaria, realizamos la optimización o armado desde cero del currículum
 
             </p>
@@ -22,7 +22,7 @@ export const Services = () => {
                     <div className="cabeceraService">
                         <FileCopyOutlinedIcon sx={{ fontSize: 50 }} className="iconoService"/>
                     </div>
-                    <h2 className="service-title">Revision de CV :</h2>
+                    <h2 className="service-title">Revision de CV </h2>
                     <p className="service-description"> Evaluación de CV junto con la elaboración de un informe donde se establecen las mejoras <br />
 
             </p>
@@ -31,7 +31,7 @@ export const Services = () => {
                 <div className="cabeceraService">
                     <LinkedInIcon sx={{ fontSize: 50 }} className="iconoService"/>  
                 </div>
-                    <h2 className="service-title">Armado de LinkedIn : </h2>
+                    <h2 className="service-title">Armado de LinkedIn  </h2>
                     <p className="service-description">Luego de  recolectar la información necesaria, realizamos la optimización o armado desde cero del perfil en LinkedIn
 
             </p>
@@ -40,7 +40,7 @@ export const Services = () => {
                 <div className="cabeceraService">
                     <LinkedInIcon sx={{ fontSize: 50 }} className="iconoService"/>  
                 </div>
-                    <h2 className="service-title">Revisión de LinkedIn :</h2>
+                    <h2 className="service-title">Revisión de LinkedIn </h2>
                     <p className="service-description">Evaluación del perfil en LinkedIn junto con la elaboración de un informe donde se establecen las mejoras
 
             </p>
