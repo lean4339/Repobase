@@ -455,7 +455,7 @@ p{
         justify-content: space-evenly;
         margin: 0;
         padding: 2px 0;
-        width: 30%;
+        width: 40%;
     }
 
     .link {
@@ -558,10 +558,13 @@ p{
         width: 20%;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
         text-transform: none;
         padding: 10px;
+    }
+    .service-description{
+        text-align: center;
     }
     .recruitmen-container{
         width: 50%;
