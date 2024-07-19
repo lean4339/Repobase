@@ -558,13 +558,15 @@ p{
         text-transform: none;
         padding: 10px;
     }
+    .recruitmen-container{
+        width: 50%;
+    }
     .titulo-main-about{
         width: 60%;
         margin: 20px auto;
     }
     .about-main-container{
         min-height: 50vh;
-        border: 1px solid;
     }
     .about-text-container{
         display: flex;

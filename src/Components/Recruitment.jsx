@@ -7,7 +7,7 @@ export const Recruitment = () => {
         <main className='about-main-container' id="/recruitment">
         <h1 className="services-titulo-main">Reclutamiento</h1>
             <div className="services">
-                <div className="service">
+                <div className="service recruitmen-container">
                     <div className="cabeceraService">
                         <GroupAddIcon sx={{ fontSize: 50 }} className="iconoService"/>
                     </div>
