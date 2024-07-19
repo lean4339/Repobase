@@ -564,6 +564,7 @@ p{
     }
     .about-main-container{
         min-height: 50vh;
+        border: 1px solid;
     }
     .about-text-container{
         display: flex;
@@ -577,7 +578,7 @@ p{
     }
     .contenedor-flex-about{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: row;
     }

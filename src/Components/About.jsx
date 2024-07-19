@@ -5,16 +5,16 @@ export const About = () => {
         <>
             <Element name='/about' />
             <main className='about-main-container' id="/about">
-                    <button className='button-principal hover pointer'>Conocenos</button>
-                    <div className="contenedor-flex-about">
+                <button className='button-principal hover pointer'>Conocenos</button>
+                <div className="contenedor-flex-about">
 
                     <div className="about-text-container">
                         <div className="perfilContinaerd">
                         </div>
                         <p>
-                        Soy Daniela Delgado, Licenciada en Relaciones Laborales, especializada en la adquisición de talento en LATAM, USA y Europa. 
-He trabajado de manera independiente en diversas agencias, reclutando perfiles variados. Además, me dedico a asesorar sobre empleabilidad a quienes están en búsqueda laboral.
-Me considero una persona dinámica, empática, curiosa y emprendedora, con el constante sueño de crecer profesionalmente cada día.
+                            Soy Daniela Delgado, Licenciada en Relaciones Laborales, especializada en la adquisición de talento en LATAM, USA y Europa.
+                            He trabajado de manera independiente en diversas agencias, reclutando perfiles variados. Además, me dedico a asesorar sobre empleabilidad a quienes están en búsqueda laboral.
+                            Me considero una persona dinámica, empática, curiosa y emprendedora, con el constante sueño de crecer profesionalmente cada día.
                         </p>
                     </div>
                     <div className="about-text-container">
@@ -27,8 +27,8 @@ Me considero una persona dinámica, empática, curiosa y emprendedora, con el co
                             ¡Estamos felices de que nos elijas y confíes en nosotros para tu desarrollo profesional!
                         </p>
                     </div>
-                    </div>
-             
+                </div>
+
             </main>
         </>
     )
