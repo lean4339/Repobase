@@ -26,7 +26,7 @@ export const Header = () => {
             <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={'/main'} className="logo hover pointer">HR Innovate</LinkRouter>
             <ul className="links">
                 {links && links.map(link =>(
-                    <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={`/${link.link}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
+                    <LinkRouter   spy={true} smooth={true} offset={-100} duration={500} to={`/${link.link}`} className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>
         </nav>
@@ -39,7 +39,7 @@ export const Header = () => {
             </div>
             {showMenu && <ul className={`links ${animatedLinks}`} >
                 {links && links.map(link =>(
-                     <LinkRouter   spy={true} smooth={true} offset={-90} duration={500} to={`/${link.link}`}  className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
+                     <LinkRouter   spy={true} smooth={true} offset={-100} duration={500} to={`/${link.link}`}  className="link hover pointer" key={link.id}>{link.title}</LinkRouter>
                 ))}
             </ul>}
         </nav>
