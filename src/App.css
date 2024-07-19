@@ -544,7 +544,7 @@ p{
     }
     .services{
         display: flex;
-        align-items: center;
+        align-items:flex-start;
         justify-content: center;
         flex-direction: row;
         gap: 20px;
@@ -553,9 +553,10 @@ p{
         width: 20%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: column;
         text-transform: none;
+        padding: 10px;
     }
     .titulo-main-about{
         width: 60%;
