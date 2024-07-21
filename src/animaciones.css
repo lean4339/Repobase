@@ -1,0 +1,82 @@
+/*Header*/
+
+/*main*/
+
+.titulo-main{
+    animation: animated_title 1s linear forwards;
+}
+.subtitulo-main{
+    animation: animated_title 1s linear forwards;
+}
+@keyframes animated_title {
+    from{
+        transform: scale(0.5);
+    }
+}
+/*About*/
+.button-about{
+     animation: about-button 1s linear forwards;
+}
+@keyframes about-button {
+    from{
+        transform: scale(1.3);
+    }
+}
+.perfilContinaerd {
+    animation: perfil 1s linear forwards;
+}
+.perfilContinaerj {
+    animation: perfil 1s linear forwards;
+}
+
+@keyframes perfil {
+    from{
+        transform: scale(1.2);
+    }
+}
+/*Servicios*/
+.services-titulo-main{
+
+    animation: animated_title 1s linear forwards;
+}
+.cabeceraService{
+    animation: cabecera 1s linear forwards;
+}
+@keyframes cabecera {
+    from{
+        transform: scale(1.2);
+    }    
+}
+.service{
+    animation: service 1s linear forwards;
+}
+@keyframes service {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+/*contacto*/
+.title-form{
+
+    animation: animated_title 1s linear forwards;
+
+}
+.button-contacto{
+    animation: about-button 1s linear forwards;
+
+}
+.inputs{
+    animation: inputs 1s linear forwards;
+}
+@keyframes inputs {
+    from{
+        transform: scale(0.95);
+    }
+}

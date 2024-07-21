@@ -1,0 +1,72 @@
+.titulo-main{
+    animation: animated_title 1s linear forwards;
+}
+.subtitulo-main{
+    animation: animated_title 1s linear forwards;
+}
+@keyframes animated_title {
+    from{
+        transform: scale(0.5);
+    }
+}
+/*About*/
+.button-principal{
+     animation: about-button 1s linear forwards;
+}
+@keyframes about-button {
+    from{
+        transform: scale(1.3);
+    }
+}
+
+/*Header*/
+
+.logo:hover{
+    border-bottom:2px solid  #F1DAE7;
+}
+.link:hover{
+    border-bottom:2px solid  #F1DAE7;
+}
+
+/*About*/
+.perfilContinaerd:hover {
+   animation: perfil 1s linear forwards;
+}
+.perfilContinaerj:hover {
+   animation: perfil 1s linear forwards;
+}
+
+@keyframes perfil {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
+/*Servicios*/
+
+.service:hover{
+    animation: service 1s linear forwards;
+}
+@keyframes service {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.inputs:focus{
+    animation: inputs 1s linear forwards;
+}
+@keyframes inputs {
+    from{
+        transform: scale(0.95);
+    }
+}
