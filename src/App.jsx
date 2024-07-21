@@ -10,7 +10,6 @@ import { Recruitment } from "./Components/Recruitment";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { HomeContainer } from "./Components/HomeContainer";
 import './App.css';
-import './hover.css';
 function App() {
 
   return (
