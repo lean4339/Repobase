@@ -21,10 +21,7 @@ export const About = () => {
                         <div className="perfilContinaerj">
                         </div>
                         <p>
-                            Después de trabajar en diversas agencias de reclutamiento, tanto en el mercado argentino como en otros países de LATAM, así como en USA y España, adquirimos un profundo conocimiento y entendimiento de las necesidades y dinámicas del mercado laboral internacional.
-                            Durante este tiempo, descubrimos que lo que más nos apasionaba era la posibilidad de crear nuestra propia fuente de trabajo. Queríamos aportar nuestra visión y compromiso personal a cada proyecto, ofreciendo un servicio más cercano y personalizado. Así nació HR Innovate.
-                            En HR Innovate, combinamos nuestra experiencia en búsquedas generalistas y especializadas en el área tecnológica para brindar asesoramiento laboral integral, servicios de empleabilidad y reclutamiento de alta calidad.
-                            ¡Estamos felices de que nos elijas y confíes en nosotros para tu desarrollo profesional!
+                        Soy Jennifer Nuñez, actualmente cursando la Licenciatura en Relaciones del Trabajo. Me especializo en la adquisición de talento en USA, LATAM y Europa, y recientemente he trabajado de forma independiente con varias consultoras en diversas búsquedas. Soy una persona dinámica, enfocada en identificar y atraer talento excepcional. Utilizo procesos de selección eficientes y herramientas modernas de reclutamiento, y me comprometo a construir relaciones duraderas y colaborativas, garantizando una experiencia positiva durante todo el proceso de contratación.
                         </p>
                     </div>
                 </div>
