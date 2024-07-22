@@ -15,7 +15,7 @@ export const About = () => {
                         </a>
                         <p>
                             Soy Daniela Delgado, Licenciada en Relaciones Laborales, especializada en la adquisición de talento en LATAM, USA y Europa.
-                            He estado trabajando de manera independiente en diferentes consultoras. Realizando búsquedas en diferentes áreas. Utilizo procesos de selección eficientes y herramientas modernas de reclutamiento Además, me dedico a asesorar sobre empleabilidad a quienes están en búsqueda laboral. Me considero una persona dinámica, empática, curiosa y emprendedora, con el deseo de crecer profesionalmente cada día.
+                            He estado trabajando de manera independiente en diferentes consultoras. Realizando búsquedas en diferentes áreas. Utilizo procesos de selección eficientes y herramientas modernas de reclutamiento. Además, me dedico a asesorar sobre empleabilidad a quienes están en búsqueda laboral. Me considero una persona dinámica, empática, curiosa y emprendedora, con el deseo de crecer profesionalmente cada día.
 
                         </p>
                     </div>
